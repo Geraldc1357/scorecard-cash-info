@@ -475,46 +475,6 @@
         "url": "https://dovewallet.com/en/trade/spot/xec-btc"
     },
     {
-        "exchange": "ViaWallet Explorer",
-        "ecash_name": false,
-        "ecash_ticker": false,
-        "ecash_logo": false,
-        "ecash_color": false,
-        "decimal_move": false,
-        "ecash_deposit_address_format": false,
-        "ecash_website_link": false,
-        "quirks_issues": true,
-        "notesRoadblocks": "Unable to contact them. bd@viawallet.com is invalid\nSubmit the ticket couple times with different emails."
-    },
-    {
-        "exchange": "Coin Dance",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "ecash_color": true,
-        "marketCap": true,
-        "circulatingSupply": true,
-        "decimal_places": "0.00",
-        "decimal_move": true,
-        "ecash_deposit_address_format": true,
-        "ecash_website_link": true,
-        "quirks_issues": false
-    },
-    {
-        "exchange": "be.cash",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "ecash_color": true,
-        "marketCap": true,
-        "circulatingSupply": true,
-        "decimal_places": "0.00",
-        "decimal_move": true,
-        "ecash_deposit_address_format": true,
-        "ecash_website_link": true,
-        "quirks_issues": false
-    },
-    {
         "exchange": "feixiaohao.com",
         "ecash_name": true,
         "ecash_ticker": true,
@@ -525,6 +485,49 @@
         "ecash_website_link": true,
         "quirks_issues": ["Deal with / have removed the 'high risk' warnings. Can only remove the warning if we pay 15K."],
         "url": "https://www.feixiaohao.cc/currencies/ecash/"
+    },
+    {
+        "exchange": "7B",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_color": true
+    },
+    {
+        "exchange": "WiseBitcoin",
+        "url": "https://www.wisebitcoin.exchange/en-us/exchange/XEC/USDT"
+    },
+    {
+        "exchange": "BHEX",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_color": true,
+        "introduction": true,
+        "marketCap": true,
+        "circulatingSupply": true,
+        "decimal_places": "0.00",
+        "ecash_website_link": true,
+        "quirks_issues": ["permanently closed"],
+        "url": "https://www.bhex.com/en-us/exchange/XEC/USDT"
+    },
+    {
+        "exchange": "LBank",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_color": true,
+        "introduction": true,
+        "marketCap": "N/A",
+        "circulatingSupply": "N/A",
+        "ecash_deposit_address_format": true,
+        "decimal_places": "0",
+        "ecash_website_link": true,
+        "url": "https://www.lbank.info/exchange/xec/usdt",
+        "deposits_working": true
+    },
+    {
+        "exchange": "BOREX"
     },
     {
         "exchange": "Blockchair",
@@ -574,11 +577,44 @@
         "ecash_website_link": false
     },
     {
-        "exchange": "7B",
+        "exchange": "ViaWallet Explorer",
+        "ecash_name": false,
+        "ecash_ticker": false,
+        "ecash_logo": false,
+        "ecash_color": false,
+        "decimal_move": false,
+        "ecash_deposit_address_format": false,
+        "ecash_website_link": false,
+        "quirks_issues": true,
+        "notesRoadblocks": "Unable to contact them. bd@viawallet.com is invalid\nSubmit the ticket couple times with different emails."
+    },
+    {
+        "exchange": "Coin Dance",
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "ecash_color": true
+        "ecash_color": true,
+        "marketCap": true,
+        "circulatingSupply": true,
+        "decimal_places": "0.00",
+        "decimal_move": true,
+        "ecash_deposit_address_format": true,
+        "ecash_website_link": true,
+        "quirks_issues": false
+    },
+    {
+        "exchange": "be.cash",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_color": true,
+        "marketCap": true,
+        "circulatingSupply": true,
+        "decimal_places": "0.00",
+        "decimal_move": true,
+        "ecash_deposit_address_format": true,
+        "ecash_website_link": true,
+        "quirks_issues": false
     },
     {
         "exchange": "Guarda wallet"
@@ -595,41 +631,5 @@
         "decimal_move": true,
         "ecash_website_link": true,
         "url": "https://www.livecoinwatch.com/price/eCash-XEC"
-    },
-    {
-        "exchange": "WiseBitcoin",
-        "url": "https://www.wisebitcoin.exchange/en-us/exchange/XEC/USDT"
-    },
-    {
-        "exchange": "BHEX",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "ecash_color": true,
-        "introduction": true,
-        "marketCap": true,
-        "circulatingSupply": true,
-        "decimal_places": "0.00",
-        "ecash_website_link": true,
-        "quirks_issues": ["permanently closed"],
-        "url": "https://www.bhex.com/en-us/exchange/XEC/USDT"
-    },
-    {
-        "exchange": "LBank",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "ecash_color": true,
-        "introduction": true,
-        "marketCap": "N/A",
-        "circulatingSupply": "N/A",
-        "ecash_deposit_address_format": true,
-        "decimal_places": "0",
-        "ecash_website_link": true,
-        "url": "https://www.lbank.info/exchange/xec/usdt",
-        "deposits_working": true
-    },
-    {
-        "exchange": "BOREX"
     }
 ]
