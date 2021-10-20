@@ -623,6 +623,7 @@
         "introduction": true,
         "marketCap": "N/A",
         "circulatingSupply": "N/A",
+        "ecash_deposit_address_format": true,
         "decimal_places": "0",
         "ecash_website_link": true,
         "url": "https://www.lbank.info/exchange/xec/usdt",
