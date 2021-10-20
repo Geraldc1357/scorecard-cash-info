@@ -2,7 +2,7 @@
     {
        "exchanges":[
           {
-             "exchange":"Binance",
+             "exchange":"binance",
              "ecash_name":true,
              "ecash_ticker":true,
              "ecash_logo":true,
