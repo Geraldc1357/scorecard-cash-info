@@ -658,9 +658,6 @@
              "exchange":"Guarda wallet"
           },
           {
-             "exchange":"Mining Dutch"
-          },
-          {
              "exchange":"Livecoinwatch",
              "ecash_name":true,
              "ecash_ticker":true,
