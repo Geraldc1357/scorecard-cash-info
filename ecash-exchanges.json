@@ -526,22 +526,6 @@
              "url":"https://www.wisebitcoin.exchange/en-us/exchange/XEC/USDT"
           },
           {
-             "exchange":"BHEX",
-             "ecash_name":true,
-             "ecash_ticker":true,
-             "ecash_logo":true,
-             "ecash_color":true,
-             "introduction":true,
-             "marketCap":true,
-             "circulatingSupply":true,
-             "decimal_places":2,
-             "ecash_website_link":true,
-             "quirks_issues":[
-                "permanently closed"
-             ],
-             "url":"https://www.bhex.com/en-us/exchange/XEC/USDT"
-          },
-          {
              "exchange":"LBank",
              "ecash_name":true,
              "ecash_ticker":true,
