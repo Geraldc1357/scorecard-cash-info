@@ -78,7 +78,7 @@
              "ecash_website_link":true,
              "url":"https://www.gate.io/tw/trade/XEC_USDT",
              "deposits_working":true,
-             "withdrawals_working":false,
+             "withdrawals_working":true,
              "deposit_confirmations": 50,
              "withdrawal_fee":50000
           },
@@ -156,7 +156,6 @@
              "ecash_color":true,
              "decimal_places":2,
              "decimal_move":"0.00",
-             "ecash_deposit_address_format":false,
              "ecash_website_link":false,
              "quirks_issues":[
                 "Our contact's telegram account got deleted. Contacting Customer Service again. Email direct me to another telegram account but never responded since. 7/11 Scammer exchange. no longer running."
@@ -210,7 +209,9 @@
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
              "url":"https://coinone.co.kr/exchange/trade/xec/krw",
-             "withdrawal_fee":100000
+             "withdrawal_fee":100000,
+             "deposits_working":true,
+             "withdrawals_working":true
           },
           {
              "exchange":"CoinBene",
@@ -225,7 +226,9 @@
              "ecash_website_link":true,
              "url":"https://www.coinbene.com/spot/exchange/XEC_USDT",
              "deposit_confirmations": 1,
-             "withdrawal_fee":2000
+             "withdrawal_fee":2000,
+             "deposits_working":true,
+             "withdrawals_working":true
           },
           {
              "exchange":"HitBTC",
@@ -257,7 +260,9 @@
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
              "quirks_issues":false,
-             "url":"https://www.homiex.com/exchange/XEC/USDT"
+             "deposits_working":true,
+             "url":"https://www.homiex.com/exchange/XEC/USDT",
+             "withdrawals_working":true
           },
           {
              "exchange":"Hoo",
@@ -271,7 +276,9 @@
              "ecash_website_link":true,
              "url":"https://www.hoo.com/spot/xec-usdt",
              "deposit_confirmations": 6,
-             "withdrawal_fee":500
+             "withdrawal_fee":500,
+             "deposits_working":true,
+             "withdrawals_working":true
           },
           {
              "exchange":"Hotbit",
@@ -294,9 +301,9 @@
           },
           {
             "exchange":"Hotbit Korea",
-            "ecash_name":true,
-            "ecash_ticker":true,
-            "ecash_logo":true,
+            "ecash_name":false,
+            "ecash_ticker":false,
+            "ecash_logo":false,
             "ecash_color":true,
             "introduction":"N/A",
             "marketCap":"N/A",
@@ -347,7 +354,9 @@
              "ecash_website_link":true,
              "url":"https://indodax.com/market/XECUSDT",
              "deposit_confirmations": 6,
-            "withdrawal_fee":1000
+            "withdrawal_fee":1000,
+            "deposits_working":true,
+            "withdrawals_working":true
           },
           {
              "exchange":"Korbit",
@@ -441,7 +450,9 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "url":"https://wazirx.com/exchange/XEC-USDT"
+             "url":"https://wazirx.com/exchange/XEC-USDT",
+             "deposits_working":true,
+             "withdrawals_working":true
           },
           {
              "exchange":"ZT Global",
