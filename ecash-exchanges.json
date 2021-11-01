@@ -17,7 +17,8 @@
              "url":"https://www.binance.com/en/trade/XEC_USDT",
              "deposits_working":true,
              "withdrawals_working":true,
-             "withdrawal_fee_reasonable":10000
+             "deposit_confirmations": 11,
+             "withdrawal_fee":10000
           },
           {
              "exchange":"bithumb",
@@ -37,7 +38,9 @@
              ],
              "url":"https://en.bithumb.com/trade/order/XEC_KRW",
              "deposits_working":true,
-             "withdrawals_working":true
+             "withdrawals_working":true,
+             "deposit_confirmations": 30,
+             "withdrawal_fee":10000
           },
           {
              "exchange":"CoinEx",
@@ -57,7 +60,8 @@
              ],
              "url":"https://www.coinex.com/info/XEC",
              "deposits_working":true,
-             "withdrawals_working":true
+             "withdrawals_working":true,
+             "withdrawal_fee":5
           },
           {
              "exchange":"gate.io",
@@ -74,7 +78,9 @@
              "ecash_website_link":true,
              "url":"https://www.gate.io/tw/trade/XEC_USDT",
              "deposits_working":true,
-             "withdrawals_working":false
+             "withdrawals_working":false,
+             "deposit_confirmations": 50,
+             "withdrawal_fee":50000
           },
           {
              "exchange":"KUCOIN",
@@ -138,7 +144,9 @@
              ],
              "url":"https://upbit.com/exchange?code=CRIX.UPBIT.KRW-XEC",
              "deposits_working":true,
-             "withdrawals_working":true
+             "withdrawals_working":true,
+             "deposit_confirmations": 60,
+             "withdrawal_fee":1000
           },
           {
              "exchange":"Bibox",
@@ -201,7 +209,8 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "url":"https://coinone.co.kr/exchange/trade/xec/krw"
+             "url":"https://coinone.co.kr/exchange/trade/xec/krw",
+             "withdrawal_fee":100000
           },
           {
              "exchange":"CoinBene",
@@ -214,7 +223,9 @@
              "decimal_move":true,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "url":"https://www.coinbene.com/spot/exchange/XEC_USDT"
+             "url":"https://www.coinbene.com/spot/exchange/XEC_USDT",
+             "deposit_confirmations": 1,
+             "withdrawal_fee":2000
           },
           {
              "exchange":"HitBTC",
@@ -258,7 +269,9 @@
              "decimal_move":true,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "url":"https://www.hoo.com/spot/xec-usdt"
+             "url":"https://www.hoo.com/spot/xec-usdt",
+             "deposit_confirmations": 6,
+             "withdrawal_fee":500
           },
           {
              "exchange":"Hotbit",
@@ -275,8 +288,29 @@
              "ecash_website_link":true,
              "url":"https://www.hotbit.io/exchange?symbol=XEC_USDT",
              "deposits_working":true,
-             "withdrawals_working":true
+             "withdrawals_working":true,
+             "deposit_confirmations": 10,
+             "withdrawal_fee":5000
           },
+          {
+            "exchange":"Hotbit Korea",
+            "ecash_name":true,
+            "ecash_ticker":true,
+            "ecash_logo":true,
+            "ecash_color":true,
+            "introduction":"N/A",
+            "marketCap":"N/A",
+            "circulatingSupply":"N/A",
+            "decimal_places":0,
+            "decimal_move":false,
+            "ecash_deposit_address_format":true,
+            "ecash_website_link":true,
+            "url":"https://www.hotbit.co.kr/exchange?symbol=XEC_USDT",
+            "deposits_working":true,
+            "withdrawals_working":true,
+            "deposit_confirmations": 10,
+            "withdrawal_fee":20000
+         },
           {
              "exchange":"Huobi",
              "ecash_name":true,
@@ -294,7 +328,9 @@
              ],
              "url":"https://www.huobi.ae/zh-cn/exchange/xec_usdt/",
              "deposits_working":true,
-             "withdrawals_working":true
+             "withdrawals_working":true,
+             "deposit_confirmations": 60,
+            "withdrawal_fee":5000
           },
           {
              "exchange":"Indodax",
@@ -309,7 +345,9 @@
              "decimal_move":true,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "url":"https://indodax.com/market/XECUSDT"
+             "url":"https://indodax.com/market/XECUSDT",
+             "deposit_confirmations": 6,
+            "withdrawal_fee":1000
           },
           {
              "exchange":"Korbit",
@@ -343,7 +381,9 @@
              ],
              "url":"https://www.okex.com/markets/prices/ecash-xec",
              "deposits_working":true,
-             "withdrawals_working":false
+             "withdrawals_working":false,
+             "deposit_confirmations": 30,
+            "withdrawal_fee":8000
           },
           {
              "exchange":"Pionex",
