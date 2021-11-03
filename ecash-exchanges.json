@@ -61,6 +61,7 @@
              "url":"https://www.coinex.com/info/XEC",
              "deposits_working":true,
              "withdrawals_working":true,
+             "deposit_confirmations": 20,
              "withdrawal_fee":5
           },
           {
@@ -367,6 +368,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":false,
+             "decimal_places":4,
              "quirks_issues":[
                 "Korean team is working on it"
              ],
@@ -573,10 +575,6 @@
              "ecash_color":true
           },
           {
-             "exchange":"WiseBitcoin",
-             "url":"https://www.wisebitcoin.exchange/en-us/exchange/XEC/USDT"
-          },
-          {
              "exchange":"LBank",
              "ecash_name":true,
              "ecash_ticker":true,
@@ -590,9 +588,6 @@
              "ecash_website_link":true,
              "url":"https://www.lbank.info/exchange/xec/usdt",
              "deposits_working":true
-          },
-          {
-             "exchange":"BOREX"
           }
        ]
     },
@@ -607,7 +602,8 @@
              "marketCap":true,
              "circulatingSupply":true,
              "decimal_move":true,
-             "ecash_deposit_address_format":false,
+             "ecash_deposit_address_format":true,
+             "decimal_places":2,
              "ecash_website_link":true,
              "quirks_issues":[
                 "Not recognize ecash address. When you transfer the XEC it's show zero in the total value."
@@ -621,7 +617,8 @@
              "ecash_logo":true,
              "ecash_color":true,
              "decimal_move":true,
-             "ecash_deposit_address_format":false,
+             "ecash_deposit_address_format":true,
+             "decimal_places":2,
              "ecash_website_link":true,
              "quirks_issues":[
                 "Market Cap is not showing. Missing exchanges who have switched to XEC (eg. Binance)"
@@ -630,12 +627,13 @@
           },
           {
              "exchange":"CoinMarketCap",
-             "ecash_name":false,
-             "ecash_ticker":false,
-             "ecash_logo":false,
-             "ecash_color":false,
+             "ecash_name":true,
+             "ecash_ticker":true,
+             "ecash_logo":true,
+             "ecash_color":true,
              "decimal_move":false,
-             "ecash_deposit_address_format":false,
+             "ecash_deposit_address_format":true,
+             "decimal_places":2,
              "ecash_website_link":false,
              "url":"https://coinmarketcap.com/currencies/ecash/"
           },
@@ -700,6 +698,8 @@
              "ecash_color":true,
              "decimal_move":true,
              "ecash_website_link":true,
+             "ecash_deposit_address_format":true,
+             "decimal_places":2,
              "url":"https://www.livecoinwatch.com/price/eCash-XEC"
           }
        ]
