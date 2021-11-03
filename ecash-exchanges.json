@@ -618,7 +618,7 @@
              "ecash_deposit_address_format":true,
              "decimal_places":2,
              "ecash_website_link":true,
-             "quirks_issues":"Market Cap is not showing. Missing exchanges who have switched to XEC (eg. Binance)",
+             "quirks_issues":"none",
              "url":"https://www.coingecko.com/en/coins/ecash"
           },
           {
@@ -642,7 +642,8 @@
              "ecash_color":false,
              "decimal_move":false,
              "ecash_deposit_address_format":false,
-             "ecash_website_link":false
+             "ecash_website_link":false,
+             "quirks_issues": "Missing Icon , Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply, Displaying outside of the top 100, Still displaying BCHA in list"
           },
           {
              "exchange":"ViaWallet Explorer",
@@ -653,7 +654,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":false,
-             "quirks_issues":"Unable to contact them. bd@viawallet.com is invalid. Submit the ticket couple times with different emails."
+             "quirks_issues":"none"
           },
           {
              "exchange":"Coin Dance",
