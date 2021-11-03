@@ -631,7 +631,8 @@
              "ecash_deposit_address_format":true,
              "decimal_places":2,
              "ecash_website_link":false,
-             "url":"https://coinmarketcap.com/currencies/ecash/"
+             "url":"https://coinmarketcap.com/currencies/ecash/",
+             "quirks_issues": "none"
           },
           {
              "exchange":"CoinCap.io",
@@ -641,7 +642,8 @@
              "ecash_color":false,
              "decimal_move":false,
              "ecash_deposit_address_format":false,
-             "ecash_website_link":false
+             "ecash_website_link":false,
+             "quirks_issues": "none"
           },
           {
              "exchange":"ViaWallet Explorer",
@@ -652,8 +654,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":false,
-             "quirks_issues":true,
-             "notesRoadblocks":"Unable to contact them. bd@viawallet.com is invalid\nSubmit the ticket couple times with different emails."
+             "quirks_issues":"Unable to contact them. bd@viawallet.com is invalid. Submit the ticket couple times with different emails."
           },
           {
              "exchange":"Coin Dance",
@@ -667,7 +668,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "quirks_issues":false
+             "quirks_issues":"none"
           },
           {
              "exchange":"be.cash",
@@ -681,7 +682,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "quirks_issues":false
+             "quirks_issues":"none"
           },
           {
              "exchange":"Guarda wallet"
@@ -696,7 +697,8 @@
              "ecash_website_link":true,
              "ecash_deposit_address_format":true,
              "decimal_places":2,
-             "url":"https://www.livecoinwatch.com/price/eCash-XEC"
+             "url":"https://www.livecoinwatch.com/price/eCash-XEC",
+             "quirks_issues":"none"
           }
        ]
     }
