@@ -605,9 +605,7 @@
              "ecash_deposit_address_format":true,
              "decimal_places":2,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "Not recognize ecash address. When you transfer the XEC it's show zero in the total value."
-             ],
+             "quirks_issues": "Not recognize ecash address. When you transfer the XEC it's show zero in the total value.",
              "url":"https://blockchair.com/ecash"
           },
           {
@@ -620,9 +618,7 @@
              "ecash_deposit_address_format":true,
              "decimal_places":2,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "Market Cap is not showing. Missing exchanges who have switched to XEC (eg. Binance)"
-             ],
+             "quirks_issues":"Market Cap is not showing. Missing exchanges who have switched to XEC (eg. Binance)",
              "url":"https://www.coingecko.com/en/coins/ecash"
           },
           {
