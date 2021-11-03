@@ -248,24 +248,6 @@
              "url":"https://hitbtc.com/xec-to-btc"
           },
           {
-             "exchange":"HomiEx",
-             "ecash_name":true,
-             "ecash_ticker":true,
-             "ecash_logo":true,
-             "ecash_color":true,
-             "introduction":true,
-             "marketCap":true,
-             "circulatingSupply":true,
-             "decimal_places":2,
-             "decimal_move":false,
-             "ecash_deposit_address_format":false,
-             "ecash_website_link":true,
-             "quirks_issues":false,
-             "deposits_working":true,
-             "url":"https://www.homiex.com/exchange/XEC/USDT",
-             "withdrawals_working":true
-          },
-          {
              "exchange":"Hoo",
              "ecash_name":true,
              "ecash_ticker":true,
