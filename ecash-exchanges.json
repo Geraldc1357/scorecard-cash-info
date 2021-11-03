@@ -642,8 +642,7 @@
              "ecash_color":false,
              "decimal_move":false,
              "ecash_deposit_address_format":false,
-             "ecash_website_link":false,
-             "quirks_issues": "none"
+             "ecash_website_link":false
           },
           {
              "exchange":"ViaWallet Explorer",
