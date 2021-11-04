@@ -587,7 +587,7 @@
              "ecash_deposit_address_format":true,
              "decimal_places":2,
              "ecash_website_link":true,
-             "quirks_issues": "Not recognize ecash address. When you transfer the XEC it's show zero in the total value.",
+             "quirks_issues": ["Not recognize ecash address. When you transfer the XEC it's show zero in the total value."],
              "url":"https://blockchair.com/ecash"
           },
           {
@@ -600,7 +600,7 @@
              "ecash_deposit_address_format":true,
              "decimal_places":2,
              "ecash_website_link":true,
-             "quirks_issues":"none",
+             "quirks_issues":["none"],
              "url":"https://www.coingecko.com/en/coins/ecash"
           },
           {
@@ -614,7 +614,7 @@
              "decimal_places":2,
              "ecash_website_link":false,
              "url":"https://coinmarketcap.com/currencies/ecash/",
-             "quirks_issues": "none"
+             "quirks_issues": ["none"]
           },
           {
              "exchange":"CoinCap.io",
@@ -625,7 +625,13 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":false,
-             "quirks_issues": "Missing Icon , Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply, Displaying outside of the top 100, Still displaying BCHA in list"
+             "quirks_issues": [
+               "Missing Icon",
+               "Missing key exchange trading pairs (Upbit, Bithumb, etc)",
+               "Missing market cap, Missing supply",
+               "Displaying outside of the top 100",
+               "Still displaying BCHA in list"
+            ]
           },
           {
              "exchange":"ViaWallet Explorer",
@@ -636,7 +642,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":false,
-             "quirks_issues":"none"
+             "quirks_issues":["none"]
           },
           {
              "exchange":"Coin Dance",
@@ -650,7 +656,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "quirks_issues":"none"
+             "quirks_issues":["none"]
           },
           {
              "exchange":"be.cash",
@@ -664,7 +670,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "quirks_issues":"none"
+             "quirks_issues":["none"]
           },
           {
              "exchange":"Guarda wallet"
@@ -680,7 +686,7 @@
              "ecash_deposit_address_format":true,
              "decimal_places":2,
              "url":"https://www.livecoinwatch.com/price/eCash-XEC",
-             "quirks_issues":"none"
+             "quirks_issues":["none"]
           }
        ]
     }
