@@ -11,9 +11,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "Using legacy (BTC) address format for deposits"
-             ],
+             "quirks_issues":"Using legacy (BTC) address format for deposits",
              "url":"https://www.binance.com/en/trade/XEC_USDT",
              "deposits_working":true,
              "withdrawals_working":true,
@@ -33,9 +31,6 @@
              "decimal_move":false,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "quirks_issues":[
-                
-             ],
              "url":"https://en.bithumb.com/trade/order/XEC_KRW",
              "deposits_working":true,
              "withdrawals_working":true,
@@ -55,9 +50,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "XEC/BTC pair needs to be added. They said they would figure out something for that but haven't given us an ETA. Also, they're requiring 120 confirmations to withdraw (and 20 to deposit) which seems like a lot."
-             ],
+             "quirks_issues":"XEC/BTC pair needs to be added. They said they would figure out something for that but haven't given us an ETA. Also, they're requiring 120 confirmations to withdraw (and 20 to deposit) which seems like a lot.",
              "url":"https://www.coinex.com/info/XEC",
              "deposits_working":true,
              "withdrawals_working":true,
@@ -106,9 +99,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "quirks_issues":[
-                
-             ],
+             "quirks_issues":"none",
              "url":"https://www.mexc.com/exchange/XEC_USDT",
              "deposits_working":true,
              "withdrawals_working":false
@@ -140,9 +131,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "Upbit would like to support rebranding to XEC only in the KRW market by adjusting the price quote units and temporarily cease the btc market for a while, until the problem mentioned above is solved. Circle back on the XEC/BTC pair at a later date."
-             ],
+             "quirks_issues":"Upbit would like to support rebranding to XEC only in the KRW market by adjusting the price quote units and temporarily cease the btc market for a while, until the problem mentioned above is solved. Circle back on the XEC/BTC pair at a later date.",
              "url":"https://upbit.com/exchange?code=CRIX.UPBIT.KRW-XEC",
              "deposits_working":true,
              "withdrawals_working":true,
@@ -158,9 +147,7 @@
              "decimal_places":2,
              "decimal_move":"0.00",
              "ecash_website_link":false,
-             "quirks_issues":[
-                "Our contact's telegram account got deleted. Contacting Customer Service again. Email direct me to another telegram account but never responded since. 7/11 Scammer exchange. no longer running."
-             ],
+             "quirks_issues":"Our contact's telegram account got deleted. Contacting Customer Service again. Email direct me to another telegram account but never responded since. 7/11 Scammer exchange. no longer running.",
              "url":"https://www.bibox.com/en"
           },
           {
@@ -173,9 +160,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "need to follow up for deposits and withdrawals"
-             ],
+             "quirks_issues":"need to follow up for deposits and withdrawals",
              "url":"https://m.biki.com/trade/XEC_USDT"
           },
           {
@@ -191,7 +176,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "quirks_issues":false,
+             "quirks_issues":"none",
              "url":"https://ascendex.com/en/cashtrade-spottrading/usdt/xec",
              "deposits_working":true,
              "withdrawals_working":true
@@ -244,7 +229,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "quirks_issues":false,
+             "quirks_issues":"none",
              "url":"https://hitbtc.com/xec-to-btc"
           },
           {
@@ -313,9 +298,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "Don't want to use the new address format"
-             ],
+             "quirks_issues":"Don't want to use the new address format",
              "url":"https://www.huobi.ae/zh-cn/exchange/xec_usdt/",
              "deposits_working":true,
              "withdrawals_working":true,
@@ -351,9 +334,7 @@
              "ecash_deposit_address_format":false,
              "ecash_website_link":false,
              "decimal_places":4,
-             "quirks_issues":[
-                "Korean team is working on it"
-             ],
+             "quirks_issues":"Korean team is working on it",
              "url":"https://www.korbit.co.kr/"
           },
           {
@@ -369,9 +350,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "still waiting for withdrawals to open. Still using the legacy address"
-             ],
+             "quirks_issues":"still waiting for withdrawals to open. Still using the legacy address",
              "url":"https://www.okex.com/markets/prices/ecash-xec",
              "deposits_working":true,
              "withdrawals_working":false,
@@ -416,9 +395,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "We will enable deposits and withdrawals when we have a free server available to run the wallet. If you are able to sponsor a server then we can enable it asap. Otherwise it might take some time."
-             ],
+             "quirks_issues":"We will enable deposits and withdrawals when we have a free server available to run the wallet. If you are able to sponsor a server then we can enable it asap. Otherwise it might take some time.",
              "url":"https://main.southxchange.com/Market/Book/XEC/BTC"
           },
           {
@@ -464,7 +441,7 @@
              "decimal_move":true,
              "ecash_deposit_address_format":true,
              "ecash_website_link":true,
-             "quirks_issues":false,
+             "quirks_issues":"none",
              "url":"https://www.bkex.com/trade/XEC_USDT"
           },
           {
@@ -504,9 +481,7 @@
              "decimal_places":2,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "People are complaining but we don't know what exactly the issue(s) is/are yet. waiting on them to open deposits and withdrawals"
-             ],
+             "quirks_issues":"People are complaining but we don't know what exactly the issue(s) is/are yet. waiting on them to open deposits and withdrawals",
              "url":"https://www.zb.com/en/kline/xec_qc",
              "deposits_working":true,
              "withdrawals_working":true
@@ -544,9 +519,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":true,
-             "quirks_issues":[
-                "Deal with / have removed the 'high risk' warnings. Can only remove the warning if we pay 15K."
-             ],
+             "quirks_issues":"Deal with / have removed the 'high risk' warnings. Can only remove the warning if we pay 15K.",
              "url":"https://www.feixiaohao.cc/currencies/ecash/"
           },
           {
@@ -587,7 +560,7 @@
              "ecash_deposit_address_format":true,
              "decimal_places":2,
              "ecash_website_link":true,
-             "quirks_issues": "Not recognize ecash address. When you transfer the XEC it's show zero in the total value.",
+             "quirks_issues":"none",
              "url":"https://blockchair.com/ecash"
           },
           {
@@ -614,7 +587,7 @@
              "decimal_places":2,
              "ecash_website_link":false,
              "url":"https://coinmarketcap.com/currencies/ecash/",
-             "quirks_issues": "none"
+             "quirks_issues":"none"
           },
           {
              "exchange":"CoinCap.io",
@@ -625,7 +598,7 @@
              "decimal_move":false,
              "ecash_deposit_address_format":false,
              "ecash_website_link":false,
-             "quirks_issues": "Missing Icon , Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply, Displaying outside of the top 100, Still displaying BCHA in list"
+             "quirks_issues":"Missing Icon , Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply, Displaying outside of the top 100, Still displaying BCHA in list"
           },
           {
              "exchange":"ViaWallet Explorer",
