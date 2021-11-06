@@ -602,13 +602,13 @@
           },
           {
              "exchange":"ViaWallet Explorer",
-             "ecash_name":false,
-             "ecash_ticker":false,
-             "ecash_logo":false,
-             "ecash_color":false,
-             "decimal_move":false,
-             "ecash_deposit_address_format":false,
-             "ecash_website_link":false,
+             "ecash_name":true,
+             "ecash_ticker":true,
+             "ecash_logo":true,
+             "ecash_color":true,
+             "decimal_move":2,
+             "ecash_deposit_address_format":true,
+             "ecash_website_link":true,
              "quirks_issues":"none"
           },
           {
