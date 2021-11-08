@@ -143,19 +143,6 @@
         "withdrawals_working": true
       },
       {
-        "exchange": "CoinBene",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "decimal_places": 0,
-        "ecash_deposit_address_format": true,
-        "url": "https://www.coinbene.com/spot/exchange/XEC_USDT",
-        "deposit_confirmations": 1,
-        "withdrawal_fee": 2000,
-        "deposits_working": true,
-        "withdrawals_working": true
-      },
-      {
         "exchange": "HitBTC",
         "ecash_name": true,
         "ecash_ticker": true,
