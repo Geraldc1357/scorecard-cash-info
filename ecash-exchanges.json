@@ -53,7 +53,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 50,
-        "withdrawal_fee": 50000
+        "withdrawal_fee": 11000
       },
       {
         "exchange": "KUCOIN",
@@ -424,10 +424,11 @@
       },
       {
         "exchange": "ViaWallet Explorer",
-        "ecash_name": false,
-        "ecash_ticker": false,
-        "ecash_logo": false,
-        "ecash_deposit_address_format": false,
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "decimal_places": 2,
+        "ecash_deposit_address_format": true,
         "quirks_issues": "none"
       },
       {
