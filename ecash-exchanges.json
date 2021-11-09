@@ -4,8 +4,7 @@
       {
         "exchange": "Binance",
         "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
+       
         "decimal_places": 2,
         "ecash_deposit_address_format": false,
         "quirks_issues": "Using legacy (BTC) address format for deposits",
@@ -318,7 +317,7 @@
         "exchange": "ZB",
         "ecash_name": true,
         "ecash_ticker": true,
-        "ecash_logo": true,
+        
         "decimal_places": 2,
         "ecash_deposit_address_format": false,
         "quirks_issues": "People are complaining but we don't know what exactly the issue(s) is/are yet. waiting on them to open deposits and withdrawals",
