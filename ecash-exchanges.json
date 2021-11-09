@@ -321,10 +321,10 @@
         "ecash_logo": true,
         "decimal_places": 2,
         "ecash_deposit_address_format": false,
-        "quirks_issues": "People are complaining but we don't know what exactly the issue(s) is/are yet. waiting on them to open deposits and withdrawals",
-        "url": "https://www.zb.com/en/kline/xec_qc",
         "deposits_working": true,
-        "withdrawals_working": true
+        "withdrawals_working": true,
+        "quirks_issues": "People are complaining but we don't know what exactly the issue(s) is/are yet. waiting on them to open deposits and withdrawals",
+        "url": "https://www.zb.com/en/kline/xec_qc"
       },
       {
         "exchange": "Jubi",
