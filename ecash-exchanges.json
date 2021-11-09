@@ -407,6 +407,7 @@
         "ecash_ticker": false,
         "ecash_logo": false,
         "ecash_deposit_address_format": false,
+        "url": "https://coincap.io/assets/ecash",
         "quirks_issues": "Missing Icon , Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply, Displaying outside of the top 100, Still displaying BCHA in list"
       },
       {
@@ -425,6 +426,7 @@
         "ecash_logo": true,
         "decimal_places": 2,
         "ecash_deposit_address_format": true,
+        "url": "https://ecash.coin.dance/",
         "quirks_issues": "none"
       },
       {
@@ -435,6 +437,7 @@
         "decimal_places": 2,
         "decimal_move": true,
         "ecash_deposit_address_format": true,
+        "url": "https://explorer.be.cash/blocks",
         "quirks_issues": "none"
       },
       {
