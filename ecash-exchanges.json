@@ -109,16 +109,6 @@
         "url": "https://www.bibox.com/en"
       },
       {
-        "exchange": "BiKi",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "decimal_places": 3,
-        "ecash_deposit_address_format": true,
-        "quirks_issues": "need to follow up for deposits and withdrawals",
-        "url": "https://m.biki.com/trade/XEC_USDT"
-      },
-      {
         "exchange": "Ascendex",
         "ecash_name": true,
         "ecash_ticker": true,
@@ -403,12 +393,12 @@
       },
       {
         "exchange": "CoinCap.io",
-        "ecash_name": false,
-        "ecash_ticker": false,
-        "ecash_logo": false,
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
         "ecash_deposit_address_format": false,
         "url": "https://coincap.io/assets/ecash",
-        "quirks_issues": "Missing Icon , Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply, Displaying outside of the top 100, Still displaying BCHA in list"
+        "quirks_issues": "Missing key exchange trading pairs (Upbit, Bithumb, etc), Still displaying BCHA in list, Unable to swap"
       },
       {
         "exchange": "ViaWallet Explorer",
