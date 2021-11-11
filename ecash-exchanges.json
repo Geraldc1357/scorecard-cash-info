@@ -6,7 +6,7 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "decimal_places": 2,
+        "decimal_places": 0,
         "ecash_deposit_address_format": false,
         "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://www.binance.com/en/trade/XEC_USDT",
@@ -49,6 +49,7 @@
         "ecash_logo": true,
         "decimal_places": 3,
         "ecash_deposit_address_format": false,
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://www.gate.io/tw/trade/XEC_USDT",
         "deposits_working": true,
         "withdrawals_working": true,
@@ -82,8 +83,12 @@
         "ecash_ticker": true,
         "ecash_logo": true,
         "decimal_places": 8,
-        "ecash_deposit_address_format": false,
-        "url": "https://app.stex.com/en/trading/pair/BTC/XEC/1D"
+        "ecash_deposit_address_format": true,
+        "url": "https://app.stex.com/en/trading/pair/BTC/XEC/1D",
+        "deposits_working": true,
+        "withdrawals_working": true,
+        "deposit_confirmations": 24,
+        "withdrawal_fee": 100
       },
       {
         "exchange": "UPbit",
@@ -100,15 +105,6 @@
         "withdrawal_fee": 1000
       },
       {
-        "exchange": "Bibox",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "decimal_places": 2,
-        "quirks_issues": "Our contact's telegram account got deleted. Contacting Customer Service again. Email direct me to another telegram account but never responded since. 7/11 Scammer exchange. no longer running.",
-        "url": "https://www.bibox.com/en"
-      },
-      {
         "exchange": "Ascendex",
         "ecash_name": true,
         "ecash_ticker": true,
@@ -118,7 +114,9 @@
         "quirks_issues": "none",
         "url": "https://ascendex.com/en/cashtrade-spottrading/usdt/xec",
         "deposits_working": true,
-        "withdrawals_working": true
+        "withdrawals_working": true,
+        "deposit_confirmations": 15,
+        "withdrawal_fee": 10000
       },
       {
         "exchange": "Coinone",
@@ -130,6 +128,7 @@
         "url": "https://coinone.co.kr/exchange/trade/xec/krw",
         "withdrawal_fee": 100000,
         "deposits_working": true,
+        "deposit_confirmations": 30,
         "withdrawals_working": true
       },
       {
@@ -139,6 +138,8 @@
         "ecash_logo": true,
         "decimal_places": 0,
         "ecash_deposit_address_format": false,
+        "deposits_working": false,
+        "withdrawals_working": false,
         "quirks_issues": "none",
         "url": "https://hitbtc.com/xec-to-btc"
       },
@@ -169,13 +170,13 @@
         "withdrawal_fee": 5000
       },
       {
-        "exchange": "Hotbit Korea",
-        "ecash_name": false,
-        "ecash_ticker": false,
-        "ecash_logo": false,
+        "exchange": "Bitclover",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
         "decimal_places": 0,
         "ecash_deposit_address_format": true,
-        "url": "https://www.hotbit.co.kr/exchange?symbol=XEC_USDT",
+        "url": "https://www.bitclover.io/exchange?symbol=XEC_USDT",
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 10,
@@ -210,13 +211,16 @@
       },
       {
         "exchange": "Korbit",
-        "ecash_name": false,
-        "ecash_ticker": false,
-        "ecash_logo": false,
-        "ecash_deposit_address_format": false,
-        "decimal_places": 4,
-        "quirks_issues": "Korean team is working on it",
-        "url": "https://www.korbit.co.kr/"
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_deposit_address_format": true,
+        "decimal_places": 2,
+        "url": "https://exchange.korbit.co.kr/markets/?market=xec-krw"
+        "deposits_working": true,
+        "withdrawals_working": true,
+        "deposit_confirmations": 12,
+        "withdrawal_fee": 10000,
       },
       {
         "exchange": "OKEx",
@@ -225,10 +229,10 @@
         "ecash_logo": true,
         "decimal_places": 0,
         "ecash_deposit_address_format": false,
-        "quirks_issues": "still waiting for withdrawals to open. Still using the legacy address",
+        "quirks_issues": "Still using the legacy address",
         "url": "https://www.okex.com/markets/prices/ecash-xec",
         "deposits_working": true,
-        "withdrawals_working": false,
+        "withdrawals_working": true,
         "deposit_confirmations": 30,
         "withdrawal_fee": 8000
       },
@@ -244,9 +248,15 @@
       {
         "exchange": "Poloniex",
         "ecash_name": false,
-        "ecash_ticker": false,
+        "ecash_ticker": true,
         "ecash_logo": false,
-        "ecash_deposit_address_format": false
+        "decimal_places": 8,
+        "ecash_deposit_address_format": true,
+        "url": "https://poloniex.com/exchange/USDT_XEC",
+         "deposits_working": true,
+        "withdrawals_working": true,
+        "deposit_confirmations": 10,
+        "withdrawal_fee": 1000
       },
       {
         "exchange": "SouthXchange",
@@ -283,7 +293,7 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "decimal_places": 2,
+        "decimal_places": 0,
         "ecash_deposit_address_format": true,
         "quirks_issues": "none",
         "url": "https://www.bkex.com/trade/XEC_USDT"
@@ -293,8 +303,13 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "decimal_places": 0,
+        "decimal_places": 4,
+        "ecash_deposit_address_format": true,
         "url": "https://trading.bitfinex.com/t/BCHABC:USD?demo=true"
+        "deposits_working": true,
+        "withdrawals_working": true,
+        "deposit_confirmations": 10,
+        "withdrawal_fee": 0
       },
       {
         "exchange": "Aofex",
@@ -310,7 +325,7 @@
         "ecash_ticker": true,
         "ecash_logo": true,
         "decimal_places": 2,
-        "ecash_deposit_address_format": false,
+        "ecash_deposit_address_format": true,
         "quirks_issues": "People are complaining but we don't know what exactly the issue(s) is/are yet. waiting on them to open deposits and withdrawals",
         "url": "https://www.zb.com/en/kline/xec_qc",
         "deposits_working": true,
@@ -323,23 +338,6 @@
         "ecash_logo": false,
         "decimal_places": 2,
         "url": "https://www.jbex.com/exchange/XEC/USDT"
-      },
-      {
-        "exchange": "Dove Wallet",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "ecash_deposit_address_format": false,
-        "url": "https://dovewallet.com/en/trade/spot/xec-btc"
-      },
-      {
-        "exchange": "feixiaohao.com",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "ecash_deposit_address_format": false,
-        "quirks_issues": "Deal with / have removed the 'high risk' warnings. Can only remove the warning if we pay 15K.",
-        "url": "https://www.feixiaohao.cc/currencies/ecash/"
       },
       {
         "exchange": "7B",
@@ -355,8 +353,16 @@
         "ecash_deposit_address_format": true,
         "decimal_places": 0,
         "url": "https://www.lbank.info/exchange/xec/usdt",
-        "deposits_working": true
-      }
+        "deposits_working": true,
+        "withdrawals_working": true
+      },
+      {
+        "exchange": "Dove Wallet",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_deposit_address_format": false,
+        "url": "https://dovewallet.com/en/trade/spot/xec-btc"
     ]
   },
   {
@@ -370,6 +376,15 @@
         "decimal_places": 2,
         "quirks_issues": "none",
         "url": "https://blockchair.com/ecash"
+      },
+      {
+        "exchange": "feixiaohao.com",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_deposit_address_format": false,
+        "quirks_issues": "Deal with / have removed the 'high risk' warnings.",
+        "url": "https://www.feixiaohao.cc/currencies/ecash/"
       },
       {
         "exchange": "CoinGecko",
@@ -396,9 +411,9 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "ecash_deposit_address_format": false,
+        "ecash_deposit_address_format": true,
         "url": "https://coincap.io/assets/ecash",
-        "quirks_issues": "Missing key exchange trading pairs (Upbit, Bithumb, etc), Still displaying BCHA in list, Unable to swap"
+        "quirks_issues": "Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply."
       },
       {
         "exchange": "ViaWallet Explorer",
@@ -431,9 +446,6 @@
         "quirks_issues": "none"
       },
       {
-        "exchange": "Guarda wallet"
-      },
-      {
         "exchange": "Livecoinwatch",
         "ecash_name": true,
         "ecash_ticker": true,
@@ -442,6 +454,14 @@
         "decimal_places": 2,
         "url": "https://www.livecoinwatch.com/price/eCash-XEC",
         "quirks_issues": "none"
+      },
+      {
+        "exchange": "StealthEX",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "decimal_places": 3,
+        "url": "https://stealthex.io/coin/xec"
       }
     ]
   }
