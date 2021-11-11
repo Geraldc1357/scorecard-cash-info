@@ -364,7 +364,9 @@
         "ecash_deposit_address_format": false,
         "url": "https://dovewallet.com/en/trade/spot/xec-btc"
       }
-    ],
+    ]
+  },
+  {
     "services": [
       {
         "exchange": "Blockchair",
