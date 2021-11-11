@@ -369,7 +369,7 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "decimal_places": 3,
+        "decimal_places": 10,
         "url": "https://stealthex.io/coin/xec"
       }
     ]
