@@ -357,6 +357,12 @@
         "withdrawals_working": true
       },
       {
+        "exchange": "Dove Wallet",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_deposit_address_format": false,
+        "url": "https://dovewallet.com/en/trade/spot/xec-btc"
     ]
   },
   {
@@ -370,14 +376,6 @@
         "decimal_places": 2,
         "quirks_issues": "none",
         "url": "https://blockchair.com/ecash"
-       },
-      {
-        "exchange": "Dove Wallet",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "ecash_deposit_address_format": false,
-        "url": "https://dovewallet.com/en/trade/spot/xec-btc"
       },
       {
         "exchange": "feixiaohao.com",
@@ -385,7 +383,7 @@
         "ecash_ticker": true,
         "ecash_logo": true,
         "ecash_deposit_address_format": false,
-        "quirks_issues": "Deal with / have removed the 'high risk' warnings. Can only remove the warning if we pay 15K.",
+        "quirks_issues": "Deal with / have removed the 'high risk' warnings.",
         "url": "https://www.feixiaohao.cc/currencies/ecash/"
       },
       {
@@ -410,12 +408,12 @@
       },
       {
         "exchange": "CoinCap.io",
-        "ecash_name": false,
-        "ecash_ticker": false,
-        "ecash_logo": false,
-        "ecash_deposit_address_format": false,
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_deposit_address_format": true,
         "url": "https://coincap.io/assets/ecash",
-        "quirks_issues": "Missing Icon , Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply, Displaying outside of the top 100, Still displaying BCHA in list"
+        "quirks_issues": "Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply."
       },
       {
         "exchange": "ViaWallet Explorer",
