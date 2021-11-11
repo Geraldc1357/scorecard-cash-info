@@ -216,11 +216,11 @@
         "ecash_logo": true,
         "ecash_deposit_address_format": true,
         "decimal_places": 2,
-        "url": "https://exchange.korbit.co.kr/markets/?market=xec-krw"
+        "url": "https://exchange.korbit.co.kr/markets/?market=xec-krw",
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 12,
-        "withdrawal_fee": 10000,
+        "withdrawal_fee": 10000
       },
       {
         "exchange": "OKEx",
@@ -253,7 +253,7 @@
         "decimal_places": 8,
         "ecash_deposit_address_format": true,
         "url": "https://poloniex.com/exchange/USDT_XEC",
-         "deposits_working": true,
+        "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 10,
         "withdrawal_fee": 1000
@@ -305,7 +305,7 @@
         "ecash_logo": true,
         "decimal_places": 4,
         "ecash_deposit_address_format": true,
-        "url": "https://trading.bitfinex.com/t/BCHABC:USD?demo=true"
+        "url": "https://trading.bitfinex.com/t/BCHABC:USD?demo=true",
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 10,
@@ -363,9 +363,8 @@
         "ecash_logo": true,
         "ecash_deposit_address_format": false,
         "url": "https://dovewallet.com/en/trade/spot/xec-btc"
-    ]
-  },
-  {
+      }
+    ],
     "services": [
       {
         "exchange": "Blockchair",
