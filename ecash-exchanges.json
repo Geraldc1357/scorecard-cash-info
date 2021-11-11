@@ -363,6 +363,14 @@
         "ecash_logo": true,
         "ecash_deposit_address_format": false,
         "url": "https://dovewallet.com/en/trade/spot/xec-btc"
+      },
+      {
+        "exchange": "StealthEX",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "decimal_places": 3,
+        "url": "https://stealthex.io/coin/xec"
       }
     ]
   },
@@ -414,7 +422,7 @@
         "ecash_logo": true,
         "ecash_deposit_address_format": true,
         "url": "https://coincap.io/assets/ecash",
-        "quirks_issues": "Missing key exchange trading pairs (Upbit, Bithumb, etc), Missing market cap, Missing supply."
+        "quirks_issues": "Missing key exchange trading pairs (Upbit, Bithumb, etc)."
       },
       {
         "exchange": "ViaWallet Explorer",
@@ -455,14 +463,6 @@
         "decimal_places": 2,
         "url": "https://www.livecoinwatch.com/price/eCash-XEC",
         "quirks_issues": "none"
-      },
-      {
-        "exchange": "StealthEX",
-        "ecash_name": true,
-        "ecash_ticker": true,
-        "ecash_logo": true,
-        "decimal_places": 3,
-        "url": "https://stealthex.io/coin/xec"
       }
     ]
   }
