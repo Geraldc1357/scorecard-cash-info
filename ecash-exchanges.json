@@ -72,10 +72,12 @@
         "ecash_logo": true,
         "decimal_places": 2,
         "ecash_deposit_address_format": false,
-        "quirks_issues": "none",
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://www.mexc.com/exchange/XEC_USDT",
         "deposits_working": true,
-        "withdrawals_working": false
+        "withdrawals_working": true,
+        "deposit_confirmations": 20,
+        "withdrawal_fee": 10000
       },
       {
         "exchange": "STEX",
@@ -243,6 +245,8 @@
         "ecash_logo": true,
         "decimal_places": 2,
         "ecash_deposit_address_format": false,
+        "deposits_working": false,
+        "withdrawals_working": false,
         "url": "https://www.pionex.com/en-US/trade/XEC_USDT/pionex.v2"
       },
       {
@@ -276,8 +280,10 @@
         "decimal_places": 0,
         "ecash_deposit_address_format": false,
         "url": "https://wazirx.com/exchange/XEC-USDT",
+        "deposit_confirmations": 11,
         "deposits_working": true,
-        "withdrawals_working": true
+        "withdrawals_working": true,
+        "withdrawal_fee": 10000
       },
       {
         "exchange": "ZT Global",
@@ -286,6 +292,8 @@
         "ecash_logo": true,
         "decimal_places": 2,
         "ecash_deposit_address_format": true,
+        "deposits_working": false,
+        "withdrawals_working": false,
         "url": "https://www.ztb.im/exchange?coin=XEC_USDT"
       },
       {
@@ -296,6 +304,8 @@
         "decimal_places": 0,
         "ecash_deposit_address_format": true,
         "quirks_issues": "none",
+        "deposits_working": false,
+        "withdrawals_working": false,
         "url": "https://www.bkex.com/trade/XEC_USDT"
       },
       {
@@ -317,6 +327,8 @@
         "ecash_ticker": true,
         "ecash_logo": true,
         "decimal_places": 2,
+        "deposits_working": false,
+        "withdrawals_working": false,
         "url": "https://aofex.info/#/exchange?symbol=XEC-AQ&plate=fixed2"
       },
       {
@@ -329,7 +341,8 @@
         "quirks_issues": "People are complaining but we don't know what exactly the issue(s) is/are yet. waiting on them to open deposits and withdrawals",
         "url": "https://www.zb.com/en/kline/xec_qc",
         "deposits_working": true,
-        "withdrawals_working": true
+        "withdrawals_working": true,
+        "withdrawal_fee": 500
       },
       {
         "exchange": "Jubi",
@@ -343,7 +356,14 @@
         "exchange": "7B",
         "ecash_name": true,
         "ecash_ticker": true,
-        "ecash_logo": true
+        "ecash_logo": true,
+        "decimal_places": 0,
+        "ecash_deposit_address_format": false,
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
+        "deposits_working": false,
+        "withdrawals_working": false,
+        "deposit_confirmations": 11,
+        "withdrawal_fee": 10000
       },
       {
         "exchange": "LBank",
@@ -361,7 +381,13 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
+        "decimal_places": 0,
         "ecash_deposit_address_format": false,
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
+        "deposit_confirmations": 50,
+        "withdrawal_fee": 4,
+        "deposits_working": false,
+        "withdrawals_working": false,
         "url": "https://dovewallet.com/en/trade/spot/xec-btc"
       },
       {
@@ -369,8 +395,27 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "decimal_places": 10,
-        "url": "https://stealthex.io/coin/xec"
+        "decimal_places": 8,
+        "ecash_deposit_address_format": false,
+        "url": "https://stealthex.io/coin/xec",
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
+        "withdrawal_fee": 0.4%,
+        "deposit_confirmations": 0,
+        "deposits_working": true,
+        "withdrawals_working": true
+       },
+       {
+        "exchange": "SimpleSwap",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "decimal_places": 8,
+        "ecash_deposit_address_format": false,
+        "url": "https://simpleswap.io/?to=xec",
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
+        "deposit_confirmations": 0,
+        "deposits_working": true,
+        "withdrawals_working": true
       }
     ]
   },
@@ -383,7 +428,7 @@
         "ecash_logo": true,
         "ecash_deposit_address_format": true,
         "decimal_places": 2,
-        "quirks_issues": "none",
+        "quirks_issues": "Incorrect price data - Coingecko BCHA price rather than XEC price",
         "url": "https://blockchair.com/ecash"
       },
       {
@@ -463,6 +508,14 @@
         "decimal_places": 2,
         "url": "https://www.livecoinwatch.com/price/eCash-XEC",
         "quirks_issues": "none"
+       },
+       {
+        "exchange": "Matrixport",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "ecash_deposit_address_format": true,
+        "decimal_places": 2
       }
     ]
   }
