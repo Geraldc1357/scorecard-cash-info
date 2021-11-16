@@ -399,12 +399,12 @@
         "ecash_deposit_address_format": false,
         "url": "https://stealthex.io/coin/xec",
         "quirks_issues": "Using legacy (BTC) address format for deposits",
-        "withdrawal_fee": 0.4%,
+        "withdrawal_fee": "0.4%",
         "deposit_confirmations": 0,
         "deposits_working": true,
         "withdrawals_working": true
-       },
-       {
+      },
+      {
         "exchange": "SimpleSwap",
         "ecash_name": true,
         "ecash_ticker": true,
@@ -508,8 +508,8 @@
         "decimal_places": 2,
         "url": "https://www.livecoinwatch.com/price/eCash-XEC",
         "quirks_issues": "none"
-       },
-       {
+      },
+      {
         "exchange": "Matrixport",
         "ecash_name": true,
         "ecash_ticker": true,
