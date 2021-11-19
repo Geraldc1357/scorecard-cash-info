@@ -274,6 +274,8 @@
         "ecash_logo": true,
         "decimal_places": 2,
         "ecash_deposit_address_format": false,
+        "deposits_working": false,
+        "withdrawals_working": false,
         "quirks_issues": "We will enable deposits and withdrawals when we have a free server available to run the wallet. If you are able to sponsor a server then we can enable it asap. Otherwise it might take some time.",
         "url": "https://main.southxchange.com/Market/Book/XEC/BTC"
       },
@@ -356,6 +358,8 @@
         "ecash_ticker": true,
         "ecash_logo": true,
         "decimal_places": 2,
+        "deposits_working": true,
+        "withdrawals_working": true,
         "url": "https://www.jbex.com/exchange/XEC/USDT"
       },
       {
@@ -381,7 +385,7 @@
         "url": "https://www.lbank.info/exchange/xec/usdt",
         "deposits_working": true,
         "withdrawals_working": true,
-        "withdrawal_fee": 50
+        "withdrawal_fee": 50000
       },
       {
         "exchange": "Dove Wallet",
@@ -403,9 +407,9 @@
         "ecash_ticker": true,
         "ecash_logo": true,
         "decimal_places": 8,
-        "ecash_deposit_address_format": false,
+        "ecash_deposit_address_format": true,
         "url": "https://stealthex.io/coin/xec",
-        "quirks_issues": "Using legacy (BTC) address format for deposits",
+        "quirks_issues": "none",
         "withdrawal_fee": "0.4%",
         "deposit_confirmations": 0,
         "deposits_working": true,
