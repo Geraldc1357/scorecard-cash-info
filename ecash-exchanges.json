@@ -145,7 +145,6 @@
         "quirks_issues": "Using legacy (BTC) address format for deposits",
         "deposits_working": false,
         "withdrawals_working": false,
-        "quirks_issues": "none",
         "url": "https://hitbtc.com/xec-to-btc"
       },
       {
