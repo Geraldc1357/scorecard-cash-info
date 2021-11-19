@@ -62,6 +62,7 @@
         "ecash_ticker": false,
         "ecash_logo": false,
         "ecash_deposit_address_format": false,
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://trade.kucoin.com/BCHA-USDT",
         "withdrawals_working": false
       },
@@ -113,7 +114,7 @@
         "ecash_logo": true,
         "decimal_places": 0,
         "ecash_deposit_address_format": false,
-        "quirks_issues": "none",
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://ascendex.com/en/cashtrade-spottrading/usdt/xec",
         "deposits_working": true,
         "withdrawals_working": true,
@@ -127,6 +128,7 @@
         "ecash_logo": true,
         "decimal_places": 4,
         "ecash_deposit_address_format": false,
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://coinone.co.kr/exchange/trade/xec/krw",
         "withdrawal_fee": 100000,
         "deposits_working": true,
@@ -140,6 +142,7 @@
         "ecash_logo": true,
         "decimal_places": 0,
         "ecash_deposit_address_format": false,
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "deposits_working": false,
         "withdrawals_working": false,
         "quirks_issues": "none",
@@ -152,6 +155,7 @@
         "ecash_logo": true,
         "decimal_places": 2,
         "ecash_deposit_address_format": false,
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://www.hoo.com/spot/xec-usdt",
         "deposit_confirmations": 6,
         "withdrawal_fee": 500,
@@ -245,6 +249,7 @@
         "ecash_logo": true,
         "decimal_places": 2,
         "ecash_deposit_address_format": false,
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "deposits_working": false,
         "withdrawals_working": false,
         "url": "https://www.pionex.com/en-US/trade/XEC_USDT/pionex.v2"
@@ -279,6 +284,7 @@
         "ecash_logo": true,
         "decimal_places": 0,
         "ecash_deposit_address_format": false,
+        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://wazirx.com/exchange/XEC-USDT",
         "deposit_confirmations": 11,
         "deposits_working": true,
@@ -348,7 +354,7 @@
         "exchange": "Jubi",
         "ecash_name": true,
         "ecash_ticker": true,
-        "ecash_logo": false,
+        "ecash_logo": true,
         "decimal_places": 2,
         "url": "https://www.jbex.com/exchange/XEC/USDT"
       },
@@ -360,8 +366,8 @@
         "decimal_places": 0,
         "ecash_deposit_address_format": false,
         "quirks_issues": "Using legacy (BTC) address format for deposits",
-        "deposits_working": false,
-        "withdrawals_working": false,
+        "deposits_working": true,
+        "withdrawals_working": true,
         "deposit_confirmations": 11,
         "withdrawal_fee": 10000
       },
@@ -374,7 +380,8 @@
         "decimal_places": 0,
         "url": "https://www.lbank.info/exchange/xec/usdt",
         "deposits_working": true,
-        "withdrawals_working": true
+        "withdrawals_working": true,
+        "withdrawal_fee": 50
       },
       {
         "exchange": "Dove Wallet",
@@ -474,9 +481,13 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "decimal_places": 2,
+        "decimal_places": 8,
         "ecash_deposit_address_format": true,
-        "quirks_issues": "none"
+        "quirks_issues": "none",
+        "deposit_confirmations": 20,
+        "deposits_working": true,
+        "withdrawals_working": true,
+        "withdrawal_fee": 5
       },
       {
         "exchange": "Coin Dance",
