@@ -399,7 +399,11 @@
         "deposits_working": false,
         "withdrawals_working": false,
         "url": "https://dovewallet.com/en/trade/spot/xec-btc"
-      },
+      }
+    ]
+  },
+  {
+    "instant-exchanges": [
       {
         "exchange": "StealthEX",
         "ecash_name": true,
@@ -411,8 +415,7 @@
         "quirks_issues": "none",
         "withdrawal_fee": "0.4%",
         "deposit_confirmations": 0,
-        "deposits_working": true,
-        "withdrawals_working": true
+        "trading_open": true
       },
       {
         "exchange": "SimpleSwap",
@@ -424,8 +427,16 @@
         "url": "https://simpleswap.io/?to=xec",
         "quirks_issues": "Using legacy (BTC) address format for deposits",
         "deposit_confirmations": 0,
-        "deposits_working": true,
-        "withdrawals_working": true
+        "trading_open": true
+      },
+      {
+        "exchange": "Godex",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": false,
+        "decimal_places": 8,
+        "url": "https://godex.io/exchange?coin_from=USDT&coin_to=XEC&amount=500",
+        "trading_open": false
       }
     ]
   },
