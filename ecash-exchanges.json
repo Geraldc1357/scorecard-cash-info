@@ -403,7 +403,7 @@
     ]
   },
   {
-    "instant-exchanges": [
+    "instant_exchanges": [
       {
         "exchange": "StealthEX",
         "ecash_name": true,
