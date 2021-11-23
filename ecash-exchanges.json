@@ -411,7 +411,6 @@
         "decimal_places": 8,
         "ecash_deposit_address_format": true,
         "url": "https://stealthex.io/coin/xec",
-        "quirks_issues": "none",
         "withdrawal_fee": "0.4%",
         "deposit_confirmations": 0,
         "trading_open": true
