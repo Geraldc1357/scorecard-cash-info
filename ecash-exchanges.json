@@ -435,7 +435,6 @@
         "ecash_logo": true,
         "decimal_places": 8,
         "url": "https://godex.io/exchange?coin_from=USDT&coin_to=XEC&amount=500",
-        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "deposit_confirmations": 11,
         "trading_open": true
       }
