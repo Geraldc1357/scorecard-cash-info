@@ -199,7 +199,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 60,
-        "withdrawal_fee": 5000
+        "withdrawal_fee": 10000
       },
       {
         "exchange": "Indodax",
@@ -448,7 +448,7 @@
         "ecash_logo": true,
         "ecash_deposit_address_format": true,
         "decimal_places": 2,
-        "quirks_issues": "Incorrect price data - Coingecko BCHA price rather than XEC price",
+        "quirks_issues": "none",
         "url": "https://blockchair.com/ecash"
       },
       {
@@ -539,6 +539,7 @@
         "ecash_ticker": true,
         "ecash_logo": true,
         "ecash_deposit_address_format": true,
+        "quirks_issues": "none",
         "decimal_places": 2
       }
     ]
