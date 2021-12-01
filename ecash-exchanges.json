@@ -456,7 +456,8 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "ecash_deposit_address_format": false,
+        "ecash_deposit_address_format": true,
+        "decimal_places": 2,
         "quirks_issues": "Deal with / have removed the 'high risk' warnings.",
         "url": "https://www.feixiaohao.cc/currencies/ecash/"
       },
