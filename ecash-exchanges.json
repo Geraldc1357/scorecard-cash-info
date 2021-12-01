@@ -198,7 +198,7 @@
         "url": "https://www.huobi.ae/zh-cn/exchange/xec_usdt/",
         "deposits_working": true,
         "withdrawals_working": true,
-        "deposit_confirmations": 60,
+        "deposit_confirmations": 12,
         "withdrawal_fee": 10000
       },
       {
@@ -456,7 +456,8 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "ecash_deposit_address_format": false,
+        "ecash_deposit_address_format": true,
+        "decimal_places": 2,
         "quirks_issues": "Deal with / have removed the 'high risk' warnings.",
         "url": "https://www.feixiaohao.cc/currencies/ecash/"
       },
