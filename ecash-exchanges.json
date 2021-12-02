@@ -348,6 +348,7 @@
         "quirks_issues": "People are complaining but we don't know what exactly the issue(s) is/are yet. waiting on them to open deposits and withdrawals",
         "url": "https://www.zb.com/en/kline/xec_qc",
         "deposits_working": true,
+        "deposit_confirmations": 36,
         "withdrawals_working": true,
         "withdrawal_fee": 500
       },
