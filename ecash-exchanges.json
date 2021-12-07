@@ -413,7 +413,7 @@
         "ecash_deposit_address_format": true,
         "url": "https://stealthex.io/coin/xec",
         "withdrawal_fee": "0.4%",
-        "deposit_confirmations": 0,
+        "deposit_confirmations": 11,
         "trading_open": true
       },
       {
@@ -424,7 +424,7 @@
         "decimal_places": 8,
         "ecash_deposit_address_format": false,
         "url": "https://simpleswap.io/?to=xec",
-        "deposit_confirmations": 0,
+        "deposit_confirmations": 11,
         "trading_open": true
       },
       {
