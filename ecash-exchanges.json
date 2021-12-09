@@ -13,6 +13,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 11,
+        "trading_pairs": ["USDT", "BUSD"],
         "withdrawal_fee": 10000
       },
       {
@@ -26,6 +27,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 30,
+        "trading_pairs": ["USDT", "KRW"],
         "withdrawal_fee": 10000
       },
       {
@@ -40,6 +42,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 20,
+        "trading_pairs": ["USDT", "USDC", "BCH"],
         "withdrawal_fee": 5
       },
       {
@@ -54,6 +57,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 50,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 11000
       },
       {
@@ -64,6 +68,7 @@
         "ecash_deposit_address_format": false,
         "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://trade.kucoin.com/BCHA-USDT",
+        "trading_pairs": ["USDT"],
         "withdrawals_working": false
       },
       {
@@ -78,6 +83,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 20,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 10000
       },
       {
@@ -91,6 +97,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 24,
+        "trading_pairs": ["USDT", "BTC"],
         "withdrawal_fee": 100
       },
       {
@@ -105,6 +112,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 60,
+        "trading_pairs": ["USDT", "KRW"],
         "withdrawal_fee": 1000
       },
       {
@@ -119,6 +127,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 15,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 10000
       },
       {
@@ -133,6 +142,7 @@
         "withdrawal_fee": 100000,
         "deposits_working": true,
         "deposit_confirmations": 30,
+        "trading_pairs": ["USDT", "KRW"],
         "withdrawals_working": true
       },
       {
@@ -145,6 +155,7 @@
         "quirks_issues": "Using legacy (BTC) address format for deposits",
         "deposits_working": false,
         "withdrawals_working": false,
+        "trading_pairs": ["USDT", "BTC"],
         "url": "https://hitbtc.com/xec-to-btc"
       },
       {
@@ -159,6 +170,7 @@
         "deposit_confirmations": 6,
         "withdrawal_fee": 500,
         "deposits_working": true,
+        "trading_pairs": ["USDT"],
         "withdrawals_working": true
       },
       {
@@ -172,6 +184,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 10,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 5000
       },
       {
@@ -185,6 +198,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 10,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 20000
       },
       {
@@ -199,6 +213,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 12,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 10000
       },
       {
@@ -212,6 +227,7 @@
         "deposit_confirmations": 6,
         "withdrawal_fee": 1000,
         "deposits_working": true,
+        "trading_pairs": ["USDT"],
         "withdrawals_working": true
       },
       {
@@ -225,6 +241,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 12,
+        "trading_pairs": ["USDT", "KRW"],
         "withdrawal_fee": 10000
       },
       {
@@ -239,6 +256,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 30,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 8000
       },
       {
@@ -251,6 +269,7 @@
         "quirks_issues": "Using legacy (BTC) address format for deposits",
         "deposits_working": false,
         "withdrawals_working": false,
+        "trading_pairs": ["USDT"],
         "url": "https://www.pionex.com/en-US/trade/XEC_USDT/pionex.v2"
       },
       {
@@ -264,6 +283,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 10,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 1000
       },
       {
@@ -275,6 +295,7 @@
         "ecash_deposit_address_format": false,
         "deposits_working": false,
         "withdrawals_working": false,
+        "trading_pairs": ["USDT", "BTC"],
         "quirks_issues": "We will enable deposits and withdrawals when we have a free server available to run the wallet. If you are able to sponsor a server then we can enable it asap. Otherwise it might take some time.",
         "url": "https://main.southxchange.com/Market/Book/XEC/BTC"
       },
@@ -290,6 +311,7 @@
         "deposit_confirmations": 11,
         "deposits_working": true,
         "withdrawals_working": true,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 10000
       },
       {
@@ -301,6 +323,7 @@
         "ecash_deposit_address_format": true,
         "deposits_working": false,
         "withdrawals_working": false,
+        "trading_pairs": ["USDT"],
         "url": "https://www.ztb.im/exchange?coin=XEC_USDT"
       },
       {
@@ -313,6 +336,7 @@
         "quirks_issues": "none",
         "deposits_working": false,
         "withdrawals_working": false,
+        "trading_pairs": ["USDT"],
         "url": "https://www.bkex.com/trade/XEC_USDT"
       },
       {
@@ -326,6 +350,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 10,
+        "trading_pairs": ["USDT", "USD"],
         "withdrawal_fee": 0
       },
       {
@@ -336,6 +361,7 @@
         "decimal_places": 2,
         "deposits_working": false,
         "withdrawals_working": false,
+        "trading_pairs": ["USDT"],
         "url": "https://aofex.info/#/exchange?symbol=XEC-AQ&plate=fixed2"
       },
       {
@@ -350,6 +376,7 @@
         "deposits_working": true,
         "deposit_confirmations": 36,
         "withdrawals_working": true,
+        "trading_pairs": ["USDT", "QC"],
         "withdrawal_fee": 500
       },
       {
@@ -360,6 +387,7 @@
         "decimal_places": 2,
         "deposits_working": true,
         "withdrawals_working": true,
+        "trading_pairs": ["USDT"],
         "url": "https://www.jbex.com/exchange/XEC/USDT"
       },
       {
@@ -373,6 +401,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 11,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 10000
       },
       {
@@ -385,6 +414,7 @@
         "url": "https://www.lbank.info/exchange/xec/usdt",
         "deposits_working": true,
         "withdrawals_working": true,
+        "trading_pairs": ["USDT"],
         "withdrawal_fee": 50000
       },
       {
@@ -398,6 +428,19 @@
         "withdrawal_fee": 4,
         "deposits_working": true,
         "withdrawals_working": true,
+        "trading_pairs": [
+          "USDT",
+          "KRT",
+          "BTC",
+          "ETH",
+          "USDC",
+          "TUSD",
+          "KRW",
+          "NGN",
+          "GBP",
+          "EUR",
+          "USDP"
+        ],
         "url": "https://dovewallet.com/en/trade/spot/xec-btc"
       }
     ]
