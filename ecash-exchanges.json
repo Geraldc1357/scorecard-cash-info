@@ -415,7 +415,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "trading_pairs": ["USDT"],
-        "withdrawal_fee": 50000
+        "withdrawal_fee": 1500
       },
       {
         "exchange": "Dove Wallet",
