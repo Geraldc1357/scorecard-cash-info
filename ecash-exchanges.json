@@ -27,7 +27,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 30,
-        "trading_pairs": ["USDT", "KRW"],
+        "trading_pairs": ["KRW"],
         "withdrawal_fee": 10000
       },
       {
@@ -97,7 +97,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 24,
-        "trading_pairs": ["USDT", "BTC"],
+        "trading_pairs": ["BTC"],
         "withdrawal_fee": 100
       },
       {
@@ -112,7 +112,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 60,
-        "trading_pairs": ["USDT", "KRW"],
+        "trading_pairs": ["KRW"],
         "withdrawal_fee": 1000
       },
       {
@@ -142,7 +142,7 @@
         "withdrawal_fee": 100000,
         "deposits_working": true,
         "deposit_confirmations": 30,
-        "trading_pairs": ["USDT", "KRW"],
+        "trading_pairs": ["KRW"],
         "withdrawals_working": true
       },
       {
@@ -155,7 +155,7 @@
         "quirks_issues": "Using legacy (BTC) address format for deposits",
         "deposits_working": false,
         "withdrawals_working": false,
-        "trading_pairs": ["USDT", "BTC"],
+        "trading_pairs": ["BTC"],
         "url": "https://hitbtc.com/xec-to-btc"
       },
       {
@@ -241,7 +241,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 12,
-        "trading_pairs": ["USDT", "KRW"],
+        "trading_pairs": ["KRW"],
         "withdrawal_fee": 10000
       },
       {
@@ -295,7 +295,7 @@
         "ecash_deposit_address_format": false,
         "deposits_working": false,
         "withdrawals_working": false,
-        "trading_pairs": ["USDT", "BTC"],
+        "trading_pairs": ["BTC"],
         "quirks_issues": "We will enable deposits and withdrawals when we have a free server available to run the wallet. If you are able to sponsor a server then we can enable it asap. Otherwise it might take some time.",
         "url": "https://main.southxchange.com/Market/Book/XEC/BTC"
       },
@@ -350,7 +350,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 10,
-        "trading_pairs": ["USDT", "USD"],
+        "trading_pairs": ["USD"],
         "withdrawal_fee": 0
       },
       {
@@ -376,7 +376,7 @@
         "deposits_working": true,
         "deposit_confirmations": 36,
         "withdrawals_working": true,
-        "trading_pairs": ["USDT", "QC"],
+        "trading_pairs": ["QC"],
         "withdrawal_fee": 500
       },
       {
