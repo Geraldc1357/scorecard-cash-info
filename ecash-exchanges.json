@@ -62,14 +62,17 @@
       },
       {
         "exchange": "KUCOIN",
-        "ecash_name": false,
-        "ecash_ticker": false,
-        "ecash_logo": false,
-        "ecash_deposit_address_format": false,
-        "quirks_issues": "Using legacy (BTC) address format for deposits",
-        "url": "https://trade.kucoin.com/BCHA-USDT",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "decimal_places": 2,
+        "ecash_deposit_address_format": true,
+        "url": "https://trade.kucoin.com/trade/XEC-USDT",
         "trading_pairs": ["USDT"],
-        "withdrawals_working": false
+        "deposits_working": true,
+        "withdrawals_working": true,
+        "deposit_confirmations": 12,
+        "withdrawal_fee": 5000
       },
       {
         "exchange": "MEXC",
