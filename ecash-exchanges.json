@@ -65,7 +65,7 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "decimal_places": 2,
+        "decimal_places": 4,
         "ecash_deposit_address_format": true,
         "url": "https://trade.kucoin.com/trade/XEC-USDT",
         "trading_pairs": ["USDT"],
