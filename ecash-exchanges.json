@@ -28,7 +28,7 @@
         "withdrawals_working": true,
         "deposit_confirmations": 30,
         "trading_pairs": ["KRW"],
-        "withdrawal_fee": 100
+        "withdrawal_fee": 1000
       },
       {
         "exchange": "CoinEx",
