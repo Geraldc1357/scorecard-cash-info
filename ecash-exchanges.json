@@ -26,7 +26,7 @@
         "deposits_working": true,
         "withdrawals_working": true,
         "deposit_confirmations": 30,
-        "withdrawal_fee": 10000
+        "withdrawal_fee": 1000
       },
       {
         "exchange": "CoinEx",
