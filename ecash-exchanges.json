@@ -58,7 +58,7 @@
         "withdrawals_working": true,
         "deposit_confirmations": 50,
         "trading_pairs": ["USDT"],
-        "withdrawal_fee": 11000
+        "withdrawal_fee": 10000
       },
       {
         "exchange": "KUCOIN",
