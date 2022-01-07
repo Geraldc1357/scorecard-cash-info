@@ -588,7 +588,7 @@
         "ecash_logo": true,
         "ecash_deposit_address_format": false,
         "quirks_issues": "No proper eCash services(Only supporting deposit and withdrawal) and a high withdrawal fee of 10000 bits (XEC).",
-        "decimal_places": 2
+        "decimal_places": 2,
         "withdrawal_fee": 10000
       }
     ]
