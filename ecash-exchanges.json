@@ -471,7 +471,7 @@
         "ecash_deposit_address_format": false,
         "url": "https://simpleswap.io/?to=xec",
         "deposit_confirmations": 11,
-        "trading_open": true
+        "trading_open": false
       },
       {
         "exchange": "Godex",
@@ -586,9 +586,10 @@
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
-        "ecash_deposit_address_format": true,
-        "quirks_issues": "none",
+        "ecash_deposit_address_format": false,
+        "quirks_issues": "No proper eCash services(Only supporting deposit and withdrawal) and a high withdrawal fee of 10000 bits (XEC).",
         "decimal_places": 2
+        "withdrawal_fee": 10000
       }
     ]
   }
