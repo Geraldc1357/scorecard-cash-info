@@ -483,6 +483,15 @@
         "url": "https://godex.io/exchange?coin_from=USDT&coin_to=XEC&amount=500",
         "deposit_confirmations": 11,
         "trading_open": true
+      },
+      {
+        "exchange": "Bybit",
+        "ecash_name": true,
+        "ecash_ticker": true,
+        "ecash_logo": true,
+        "decimal_places": 1,
+        "url": "https://www.bybit.com/trade/spot/XEC/USDT",
+        "trading_pairs": ["USDT"]
       }
     ]
   },
