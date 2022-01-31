@@ -479,7 +479,7 @@
         "ecash_deposit_address_format": false,
         "url": "https://simpleswap.io/?to=xec",
         "deposit_confirmations": 11,
-        "trading_open": false
+        "trading_open": true
       },
       {
         "exchange": "Godex",
