@@ -282,8 +282,8 @@
         "decimal_places": 8,
         "ecash_deposit_address_format": true,
         "url": "https://poloniex.com/exchange/USDT_XEC",
-        "deposits_working": false,
-        "withdrawals_working": false,
+        "deposits_working": true,
+        "withdrawals_working": true,
         "deposit_confirmations": 10,
         "trading_pairs": ["USDT"],
         "withdrawal_fee": 1000
