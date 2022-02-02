@@ -247,7 +247,7 @@
         "withdrawal_fee": 10000
       },
       {
-        "exchange": "OKEx",
+        "exchange": "OK",
         "ecash_name": true,
         "ecash_ticker": true,
         "ecash_logo": true,
