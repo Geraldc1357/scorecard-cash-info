@@ -8,7 +8,6 @@
         "ecash_logo": true,
         "decimal_places": 0,
         "ecash_deposit_address_format": true,
-        "quirks_issues": "Using legacy (BTC) address format for deposits",
         "url": "https://www.binance.com/en/trade/XEC_USDT",
         "deposits_working": true,
         "withdrawals_working": true,
