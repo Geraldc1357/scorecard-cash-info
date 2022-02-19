@@ -424,6 +424,11 @@
         "ecash_ticker": true,
         "ecash_logo": true,
         "decimal_places": 1,
+        "deposits_working": true,
+        "withdrawals_working": true,
+        "deposit_confirmations": 60,
+        "withdrawal_fee": 10000, 
+        "ecash_deposit_address_format": true,
         "url": "https://www.bybit.com/trade/spot/XEC/USDT",
         "trading_pairs": ["USDT"]
       },
